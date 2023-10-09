@@ -1,15 +1,15 @@
-#include "Circle.h"
+ï»¿#include "Circle.h"
 
 using namespace std;
 
 Circle::Circle(float r) { radius = r; }
 
 void Circle::InputCircle() { 
-	cout << "Ââåäèòå ðàäèóñ êðóãêà: ";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð´Ð¸ÑƒÑ ÐºÑ€ÑƒÐ³ÐºÐ°: ";
 	cin >> radius;
 }
 
-void Circle::PrintCircle() { cout << "Ðàäèóñ êðóãà: " << radius << endl; }
+void Circle::PrintCircle() { cout << "Ð Ð°Ð´Ð¸ÑƒÑ ÐºÑ€ÑƒÐ³Ð°: " << radius << endl; }
 
 
 float Circle::GetCircle() const { return radius; }

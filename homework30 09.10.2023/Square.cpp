@@ -1,15 +1,15 @@
-#include "Square.h"
+ï»¿#include "Square.h"
 
 using namespace std;
 
 Square::Square(float a) { area = a; }
 
 void Square::InputSquare() { 
-	cout << "Ââåäèòå ïëîùàäü êâàäðàòà: ";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¿Ð»Ð¾Ñ‰Ð°Ð´ÑŒ ÐºÐ²Ð°Ð´Ñ€Ð°Ñ‚Ð°: ";
 	cin >> area;
 }
 
-void Square::PrintSquare() { cout << "Ïëîùàäü êâàäðàòà: " << area << endl; }
+void Square::PrintSquare() { cout << "ÐŸÐ»Ð¾Ñ‰Ð°Ð´ÑŒ ÐºÐ²Ð°Ð´Ñ€Ð°Ñ‚Ð°: " << area << endl; }
 
 
 float Square::GetSquare() const { return area; }
